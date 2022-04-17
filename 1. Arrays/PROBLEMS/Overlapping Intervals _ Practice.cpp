@@ -17,7 +17,7 @@ bool comparator(pair<int, int>a, pair<int, int>b) {
  * @brief      Given an array of integer pairs, we need to merge overlapping
  *             intervals. The idea we use is to first sort the array on the
  *             basis of the first element and then we need to just loop through
- *             the array maintaining a start and stop variable where we store
+ *             the array maintaining a start and stop variable where we store variable
  *             which we keep updating based on the condition whether current and
  *             previous intervals are overlapping or not by checking if the
  *             starting of the current interval is smaller than the ending of
